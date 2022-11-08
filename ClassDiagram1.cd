@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FinanceManagementSystem.Dashboard" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="BestExpLb1_Click" Hidden="true" />
+      <Method Name="Dashboard" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="GetBalance" Hidden="true" />
+      <Method Name="GetExpLDate" Hidden="true" />
+      <Method Name="GetIncLDate" Hidden="true" />
+      <Method Name="GetMaxExp" Hidden="true" />
+      <Method Name="GetMaxExpCat" Hidden="true" />
+      <Method Name="GetMaxInc" Hidden="true" />
+      <Method Name="GetMaxIncCat" Hidden="true" />
+      <Method Name="GetMinExp" Hidden="true" />
+      <Method Name="GetMinInc" Hidden="true" />
+      <Method Name="GetNumExp" Hidden="true" />
+      <Method Name="GetNumInc" Hidden="true" />
+      <Method Name="GetTotExp" Hidden="true" />
+      <Method Name="GetTotInc" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="label1_Click" Hidden="true" />
+      <Method Name="label10_Click" Hidden="true" />
+      <Method Name="label12_Click" Hidden="true" />
+      <Method Name="label2_Click" Hidden="true" />
+      <Method Name="label23_Click" Hidden="true" />
+      <Method Name="label3_Click" Hidden="true" />
+      <Method Name="label4_Click" Hidden="true" />
+      <Method Name="label5_Click" Hidden="true" />
+      <Method Name="label6_Click" Hidden="true" />
+      <Method Name="label7_Click" Hidden="true" />
+      <Method Name="label8_Click" Hidden="true" />
+      <Method Name="label9_Click" Hidden="true" />
+      <Method Name="panel1_Paint" Hidden="true" />
+      <Method Name="panel2_Paint" Hidden="true" />
+      <Method Name="panel4_Paint" Hidden="true" />
+      <Method Name="pictureBox1_Click" Hidden="true" />
+      <Method Name="pictureBox10_Click" Hidden="true" />
+      <Method Name="pictureBox2_Click" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>/RCTMhQAGCAQERAAAIiIQAQC4AUDACMAQIAmhWBnAHI=</HashCode>
+      <FileName>Dashboard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+      <Field Name="Inc" />
+      <Field Name="Exp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.expense" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9QBAIhQAACAiARAAAACAQACCAQECAAggAAAgAQhECAA=</HashCode>
+      <FileName>expense.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.Income">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9QBAIhQAACAgARAAAACAQAICISMAAAAAADwgAQhECAA=</HashCode>
+      <FileName>Income.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.login" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAQAACAgABAAAACABAASAQEAAgAAAAAgAAAAIAA=</HashCode>
+      <FileName>login.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+      <Field Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.users" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAKCAgABAQAACAAAASAQEAAiCAAAAiAIBAAAA=</HashCode>
+      <FileName>users.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.ViewExpense" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QRAAIhQAACAgARAAAACAQAASAQEgAAAAEAoiARhAAAA=</HashCode>
+      <FileName>ViewExpense.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FinanceManagementSystem.ViewIncome" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAIhSAACAAARAAAACAQAACgQEAAAAAEBAgAQhAAAA=</HashCode>
+      <FileName>ViewIncome.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Con" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Data.SqlClient.SqlConnection" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.String" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Int32" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
